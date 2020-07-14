@@ -1,5 +1,5 @@
 plugins {
-	id 'org.springframework.boot' version '2.3.0.RELEASE'
+	id 'org.springframework.boot' version '2.3.1.RELEASE'
 	id 'io.spring.dependency-management' version '1.0.9.RELEASE'
 	id 'java'
 	id 'scala'
@@ -16,8 +16,8 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-webflux'
 
-	implementation 'com.typesafe.akka:akka-actor-typed_2.13:2.6.5'
-	implementation 'com.typesafe.akka:akka-stream-typed_2.13:2.6.5'
+	implementation 'com.typesafe.akka:akka-actor-typed_2.13:2.6.7'
+	implementation 'com.typesafe.akka:akka-stream-typed_2.13:2.6.7'
 	implementation 'com.lightbend.akka:akka-stream-alpakka-spring-web_2.13:2.0.0'
 	implementation 'org.scala-lang:scala-library:2.13.2'
 
