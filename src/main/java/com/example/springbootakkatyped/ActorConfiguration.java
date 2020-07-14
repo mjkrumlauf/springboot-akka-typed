@@ -22,8 +22,7 @@ public class ActorConfiguration {
 
   @Bean
   public ActorSystem<Greet> actorSystem(Behavior<Greet> actor) {
-    ActorSystem<Greet> system = ActorSystem.create(actor, "hello");
-    return system;
+    return ActorSystem.create(actor, "hello");
   }
 
   @Bean
